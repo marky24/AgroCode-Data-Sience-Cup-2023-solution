@@ -10,5 +10,9 @@ I think the crucial part of this challenge. Yon can notice that data has strong 
 ![alt text](https://github.com/marky24/AgroCode-Data-Sience-Cup-2023-solution/blob/main/src/diff_detrend.png?raw=true)  
 More specific parts of solution you can find in file two_targets.py, also there are some inline comments.
 # Running code  
-Before running you need to install requirements with `pip install -r src/requirements.txt`  
-To run code use `python3 two_targets.py -s data/submission.csv -tr data/train.csv -te data/X_test_public.csv`
+Before running you need to install requirements with:  
+`pip install -r src/requirements.txt`  
+To run code use:  
+`python3 two_targets.py -s data/submission.csv -tr data/train.csv -te data/X_test_private.csv`  
+You can score your solution with:  
+`python3 score.py -p submission.csv -t data/y_test_private.csv`
