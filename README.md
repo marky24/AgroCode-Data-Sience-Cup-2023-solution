@@ -7,7 +7,7 @@ The best features were milk_yield_2 and farm, except them there were a few hancr
 ## Target engeneering  
 I think the crucial part of this challenge. Yon can notice that data has strong time shifting target. So prediction this type of target with gradient boosting is not the best idea. So before training we need to normalize it. Here i use two types of normalization: diff with milk_yield_2, linear regression detrend  
 ![alt text](https://github.com/marky24/AgroCode-Data-Sience-Cup-2023-solution/blob/main/src/linreg_detrend.png?raw=true)  
-![alt text](https://github.com/marky24/AgroCode-Data-Sience-Cup-2023-solution/blob/main/src/dif_detrend.png?raw=true)  
+![alt text](https://github.com/marky24/AgroCode-Data-Sience-Cup-2023-solution/blob/main/src/diff_detrend.png?raw=true)  
 More specific parts of solution you can find in file two_targets.py, also there are some inline comments.
 # Running code  
 Before running you need to install requirements with `pip install -r src/requirements.txt`  
